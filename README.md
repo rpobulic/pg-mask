@@ -16,7 +16,7 @@ After marking the sensitive columns, you can export all data of *owner*:
 
 This will create three files in the current directory:
 - pre_data.sql
-- import_masked.sql
+- masked_data.sql
 - post_data.sql
 
 These files should be copied to the target system. To import them into the target database, run this in the target directory:
